@@ -1,0 +1,70 @@
+body{
+    background-image: url(../img/3.jpg);
+    background-color: #cccccc;
+    color: white;
+    margin: 0px 50px;
+    padding: 0px;
+}
+
+#uvod h1{
+    color:red;
+    text-align: center;
+}
+
+
+#wrap{
+    display: grid;
+    grid-template-rows: 4em,500px,auto;
+}
+
+#slika1{
+    width: 540px;
+    height: auto;
+}
+
+
+
+#slika2{
+    height: 400px;
+    width: auto;
+    text-align: center;
+}
+
+#sredina {
+    display: grid;
+    grid-template-columns: 50% 60% ;
+    place-content: center ;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+  nav {
+     background: aquamarine;
+    font-family: Arial;
+    border-radius: 4px;
+    position: static;
+    top:0;
+}
+
+nav> ul{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+}
+
+nav>ul>li{
+    display:grid;
+    align-content: center;
+    justify-content: center;
+}
+
+nav>ul>li:hover{
+    background-color: burlywood;
+}
+
+

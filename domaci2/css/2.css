@@ -1,0 +1,67 @@
+body{
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#wrap{
+    display: grid;
+
+}
+
+#Tony{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}
+
+#Karmela{
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}
+
+#psihijatar{
+    padding: 10px;
+    background-color: rgb(251, 241, 170);
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}
+
+#Kristofer{
+    padding: 10px;
+    background-color: green;
+    color: aqua;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 50px;
+}
+
+
+#Tony h1{
+    color: yellow;
+}
+
+#slika{
+    height: 250px;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+}

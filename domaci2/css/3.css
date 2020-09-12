@@ -1,0 +1,73 @@
+body{
+    background-color: seashell;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: slateblue;
+}
+
+h2{
+    text-align: center;
+}
+
+#s1{
+    display:grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+  border-style: solid;
+}
+
+#sezona1{
+    padding: 20px;
+    border-right-style: dotted;
+    
+}
+
+#sezona2{
+padding: 20px;
+}
+
+#s2{
+    display:grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+  border-style: solid;
+  margin-top: 30px;
+}
+
+#sezona3{
+    padding: 20px;
+    border-right-style: dotted;
+    
+}
+
+#sezona4{
+padding: 20px;
+}
+
+#s3{
+    display:grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+  border-style: solid;
+  margin-top: 30px;
+}
+#sezona5{
+    padding: 20px;
+    border-right-style: dotted;
+    
+}
+
+#sezona6{
+padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+    
+}
